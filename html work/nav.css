@@ -1,0 +1,17 @@
+ button{
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: inline;
+    transition: transform 0.3s;
+
+ }
+ button:hover {
+    transform: scale(1.1);
+ }  
+ button:active {
+    transform: scale(0.9);
+ }

@@ -1,0 +1,17 @@
+ h1{
+    font-size: 30px;
+    color: #d6c8c8;
+    text-align: center;
+    margin-top: 20px;
+    background-color:rgb(58, 99, 100);
+    padding:10px 10px;
+ }
+
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding:0px;
+    border-width: 10px;;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1 title="This is a surprise document">Surprise!</h1>
+
+        <p style="color: rgb(23, 124, 138); font-weight: bold; margin-left: 50px;">
+             Please fill in the blank, Don't click on the Enter button,
+              click on the Submit button.</p>
+
+        <form style="display: flex; flex-direction: column; width: 400px; height: 400px; margin: auto;
+        background-color:none; padding: 20px; border-radius: 5px; 
+        box-shadow: 0 0 600px rgba(23, 124, 138, 0.678);" >
+        
+            First Name: <input type="text" name="firstName" 
+            style="margin-bottom: 7px; margin-top: 7px;" required> <br>
+            Last Name: <input type="text" name="lastName" 
+            style="margin-top: 8px;" required><br>
+            What is your hobby?<input type="text" name="hobby" 
+            style="margin-top: 10px;" required><br>
+             What do you want to be? 
+             <select type="text" name="futureJob" style="margin-top: 10px; margin-bottom: 10px;">
+                 <option value="Lawyer">Lawyer</option>
+                 <option value="">Anything else?</option> 
+             </select>
+
+            <input type="submit" style="margin-top: 40px; cursor:pointer; 
+            background-color:rgb(85, 108, 109); color:white; border:none;
+             padding:5px 5px;" value="Submit" onclick="location.href='gift.html'">
+        </form>
+    </div>
+    <footer style="text-align: center; margin-top: 260px;">
+        <p>&copy; 2023 Surprise Document. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
