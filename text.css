@@ -1,0 +1,22 @@
+p{
+  background-color: rgba(0, 255, 179, 0.082);
+font-size: 20px;
+}
+ button{
+    background-color: rgb(23, 124, 138);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;;
+ }
+ button:hover{
+    background-color: rgba(55, 112, 102, 0.514);
+    color: rgb(12, 10, 10);
+ }
+ button:active{
+    background-color: rgb(97, 124, 150);
+    color: black;
+    transform: scale(0.95);
+ }

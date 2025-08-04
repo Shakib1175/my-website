@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise!</title>
+  <link rel="stylesheet" href="nav.css">
+
+  <style>
+    
+
+    body {
+      background: linear-gradient(to bottom right, #ffe6f0, #ffccff);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: #e60073;
+      text-shadow: 2px 2px #fff;
+      
+    }
+
+    .cake {
+      margin-top: 20px;
+    }
+
+    .cake img {
+      width: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #ff66cc;
+    }
+
+    .message {
+      font-size: 24px;
+      color: #800040;
+      margin-top: 20px;
+    }
+
+    .balloon {
+      width: 60px;
+      height: 80px;
+      background: red;
+      border-radius: 50% 50% 50% 50%;
+      position: absolute;
+      animation: float 4s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-50px); }
+      100% { transform: translateY(0); }
+    }
+
+    .balloon::after {
+      content: '';
+      position: absolute;
+      top: 80px;
+      left: 29px;
+      width: 2px;
+      height: 40px;
+      background: #555;
+    }
+
+    .b1 { left: 10%; background: #ff6666; animation-delay: 0s; }
+    .b2 { left: 30%; background: #66ccff; animation-delay: 1s; }
+    .b3 { left: 50%; background: #99ff99; animation-delay: 2s; }
+    .b4 { left: 70%; background: #ffff66; animation-delay: 3s; }
+    .b5 { left: 90%; background: #ff99cc; animation-delay: 1.5s; }
+  </style>
+</head>
+<body class="width=device-width">
+    <nav>
+        <ul>
+            <li class="active"></li>
+            <button style="margin-bottom: 10px;" onclick="location.href='index.html'">Home</button>
+        </li>
+        <li>
+            <button onclick="location.href='about.html'">About Developer</button>
+        </li>
+        </ul>
+    </nav>
+
+  <h1>🎉 Happy Birthday!🎉</h1>
+
+  <div class="cake">
+    <img src="cake.gif" alt="Birthday Cake">
+  </div>
+
+  <div class="Document">
+    Wishing you a day filled with laughter, love, and little moments that melt your heart.
+     💖✨<br>
+May today be as sweet and unforgettable as you are. 🌟
+  </div>
+
+  <div class="balloon b1"></div>
+  <div class="balloon b2"></div>
+  <div class="balloon b3"></div>
+  <div class="balloon b4"></div>
+  <div class="balloon b5"></div>
+
+</body>
+</html>
